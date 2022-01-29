@@ -17,6 +17,10 @@ Repositório contendo o projeto desenvolvido durante a trilha Ignite de Node.Js 
 
 API para cadastro e aluguel de carros. Documentação encontrada na rota /docs com a api em execução.
 
+<p align="center">
+  <a href="https://github.com/LaercioSR/rentx/blob/master/Insomnia_API_Rentx.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
+
 ## Requisitos
 
 ### Legenda
