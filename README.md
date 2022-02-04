@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.rocketseat.com.br/">
+    <img src="https://github.com/LaercioSR/rentx/blob/master/assets/rocketseat-logo.png" height="120" width="auto" alt="Rede Rhisa" />
+  </a>
+</p>
+
 # RENTX
 
 Repositório contendo o projeto desenvolvido durante a trilha Ignite de Node.Js da [Rocketseat](https://www.rocketseat.com.br/).
