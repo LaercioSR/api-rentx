@@ -155,6 +155,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
     - [SuperTest](https://github.com/visionmedia/supertest#readme)
   - [NodeMailer](https://nodemailer.com/about/)
     - [Ethereal](https://ethereal.email/)
+  - [Handlebars](https://handlebarsjs.com/)
 - **[PostgreSQL](https://www.postgresql.org/)**
 - **[ESLint](https://eslint.org/)**
 - **[Swagger](https://swagger.io/)**
