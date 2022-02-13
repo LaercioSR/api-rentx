@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://www.rocketseat.com.br/">
-    <img src="https://raw.githubusercontent.com/LaercioSR/rentx/main/assets/rocketseat-logo.png" height="120" width="auto" alt="Rocketseat Logo" />
+    <img src="https://raw.githubusercontent.com/LaercioSR/api-rentx/main/assets/rocketseat-logo.png" height="120" width="auto" alt="Rocketseat Logo" />
   </a>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LaercioSR/rentx/main/assets/rentx-logo.png" height="30" width="auto" alt="Rentx Logo"/>
+  <img src="https://raw.githubusercontent.com/LaercioSR/api-rentx/main/assets/rentx-logo.png" height="30" width="auto" alt="Rentx Logo"/>
 </p>
 
 Repositório contendo o projeto desenvolvido durante a trilha Ignite de Node.Js da [Rocketseat](https://www.rocketseat.com.br/).
@@ -25,7 +25,7 @@ Repositório contendo o projeto desenvolvido durante a trilha Ignite de Node.Js 
 API para cadastro e aluguel de carros. Documentação encontrada na rota /api-docs com a api em execução.
 
 <p align="center">
-  <a href="https://github.com/LaercioSR/rentx/blob/main/Insomnia_API_Rentx.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://github.com/LaercioSR/api-rentx/blob/main/Insomnia_API_Rentx.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 ## Como Executar
@@ -40,7 +40,7 @@ Você poderá rodar o projeto como desenvolvimento sem necessidade de configura�
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/LaercioSR/rentx
+$ git clone https://github.com/LaercioSR/api-rentx
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd rentx
