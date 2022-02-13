@@ -1,10 +1,11 @@
 <p align="center">
   <a href="https://www.rocketseat.com.br/">
-    <img src="https://raw.githubusercontent.com/LaercioSR/rentx/main/assets/rocketseat-logo.png" height="120" width="auto" alt="Rede Rhisa" />
+    <img src="https://raw.githubusercontent.com/LaercioSR/rentx/main/assets/rocketseat-logo.png" height="120" width="auto" alt="Rocketseat Logo" />
   </a>
 </p>
-
-# RENTX
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LaercioSR/rentx/main/assets/rentx-logo.png" height="80" width="auto" alt="Rentx Logo"/>
+</p>
 
 Repositório contendo o projeto desenvolvido durante a trilha Ignite de Node.Js da [Rocketseat](https://www.rocketseat.com.br/).
 
@@ -15,17 +16,46 @@ Repositório contendo o projeto desenvolvido durante a trilha Ignite de Node.Js 
 <p align="center">
  <a href="#sobre-o-projeto">Sobre</a> •
  <a href="#sobre-o-projeto">Requisitos</a> •
- <!-- <a href="#como-executar">Como executar</a> • -->
+ <a href="#como-executar">Como executar</a> •
  <a href="#tecnologias">Tecnologias</a>
 </p>
 
 ## Sobre o Projeto
 
-API para cadastro e aluguel de carros. Documentação encontrada na rota /docs com a api em execução.
+API para cadastro e aluguel de carros. Documentação encontrada na rota /api-docs com a api em execução.
 
 <p align="center">
   <a href="https://github.com/LaercioSR/rentx/blob/main/Insomnia_API_Rentx.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
+
+## Como Executar
+
+### Pré Requisitos
+
+Para executar o projeto você precisá ter o [Docker](https://www.docker.com/) e o docker composer instalados em sua máquina.
+
+Você poderá rodar o projeto como desenvolvimento sem necessidade de configurações externas. Porém, caso deseje rodar os módulos referentes à AWS você precisará ter uma conta e configurar um bucket no S3 e um e-mail no SES.
+
+### Executando
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/LaercioSR/rentx
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd rentx
+
+# Copie o .env
+$ cp .env.example .env
+# Depois disso é necessário preencher o .env.
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ docker-compose start
+# Se tudo estiver correto a api poderá ser acessada pela URL http://localhost:3333 .
+```
 
 ## Requisitos
 
@@ -156,6 +186,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
   - [NodeMailer](https://nodemailer.com/about/)
     - [Ethereal](https://ethereal.email/)
   - [Handlebars](https://handlebarsjs.com/)
+  - [AWS SDK](https://aws.amazon.com/pt/sdk-for-javascript/)
+  - [Tsyringe](https://github.com/microsoft/tsyringe)
+  - [Day.js](https://day.js.org/)
 - **[PostgreSQL](https://www.postgresql.org/)**
 - **[ESLint](https://eslint.org/)**
 - **[Swagger](https://swagger.io/)**
+- **[Docker](https://www.docker.com/)**
