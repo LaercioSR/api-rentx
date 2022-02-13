@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LaercioSR/rentx/main/assets/rentx-logo.png" height="80" width="auto" alt="Rentx Logo"/>
+  <img src="https://raw.githubusercontent.com/LaercioSR/rentx/main/assets/rentx-logo.png" height="30" width="auto" alt="Rentx Logo"/>
 </p>
 
 Repositório contendo o projeto desenvolvido durante a trilha Ignite de Node.Js da [Rocketseat](https://www.rocketseat.com.br/).
@@ -55,6 +55,14 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ docker-compose start
 # Se tudo estiver correto a api poderá ser acessada pela URL http://localhost:3333 .
+```
+
+### Executando os Testes
+
+Para executar os testes rode o seguinte comando no terminal dentro do projeto:
+
+```bash
+$ npm run test
 ```
 
 ## Requisitos
