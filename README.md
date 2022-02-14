@@ -195,9 +195,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
     - [Ethereal](https://ethereal.email/)
   - [Handlebars](https://handlebarsjs.com/)
   - [AWS SDK](https://aws.amazon.com/pt/sdk-for-javascript/)
-  - [Tsyringe](https://github.com/microsoft/tsyringe)
+  - [Tsyringe](https://github.com/microsoft/tsyringe/)
   - [Day.js](https://day.js.org/)
+  - [Node Rate Limiter Flexible](https://github.com/animir/node-rate-limiter-flexible/)
 - **[PostgreSQL](https://www.postgresql.org/)**
 - **[ESLint](https://eslint.org/)**
 - **[Swagger](https://swagger.io/)**
 - **[Docker](https://www.docker.com/)**
+- **[Redis](https://redis.io/)**
