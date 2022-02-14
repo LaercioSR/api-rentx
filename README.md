@@ -10,7 +10,7 @@
 Repositório contendo o projeto desenvolvido durante a trilha Ignite de Node.Js da [Rocketseat](https://www.rocketseat.com.br/).
 
 <h4 align="center">
- 🚧  Projeto em construção...  🚧
+ ✅  Projeto Concluído  ✅
 </h4>
 
 <p align="center">
