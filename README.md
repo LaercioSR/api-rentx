@@ -43,7 +43,7 @@ Você poderá rodar o projeto como desenvolvimento sem necessidade de configura�
 $ git clone https://github.com/LaercioSR/api-rentx
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd rentx
+$ cd api-rentx
 
 # Copie o .env
 $ cp .env.example .env
